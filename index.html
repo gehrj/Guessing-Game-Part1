@@ -15,7 +15,7 @@
 
         <div id='headers'>
           <h1 id="title" class="hit-the-floor"> Guessing Game?!? </h1>
-          <h3 id="subtitle"> Test your luck on a number between 1-100, get it right and you might want go buy a lotto ticket! </h3>
+          <h3 id="subtitle"> Test your luck on a number between 1-100, get it right and you might want to go buy a lotto ticket! </h3>
         </div>
 
         <div id='main'>
@@ -27,19 +27,19 @@
 
           <div id='guesses'>
             <!-- unordered list of guesses -->
-            <ul class="guess-list">
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-              <li class="guess">-</li>
+            <ul id="guess-list">
+              <li id='guess1' class="guess">-</li>
+              <li id='guess2' class="guess">-</li>
+              <li id='guess3' class="guess">-</li>
+              <li id='guess4' class="guess">-</li>
+              <li id='guess5' class="guess">-</li>
             </ul>
           </div>
 
           <div id="menu-btns">
             <!-- reset and hint buttons -->
-            <button class="btn btn-danger"> Reset </button>
-            <button class="btn btn-info"> Its too hard help me out! </button>
+            <button id = 'reset' class="btn btn-danger"> Reset </button>
+            <button id = 'hint' class="btn btn-info"> Its too hard help me out! </button>
           </div>
         </div>
       </div>
@@ -63,6 +63,7 @@
 
         </div>
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="GussingGame.js"></script>
   </body>
 </html>

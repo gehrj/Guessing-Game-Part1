@@ -14,9 +14,10 @@
       .guess {
           display: inline;
           font-size: 60px;
-          border: 1px solid black;
+          border: 1px solid white;
           border-radius: 10%;
           padding: 0 25px;
+          color: white;
       }
       #footer {
           width: 100%;
@@ -57,7 +58,22 @@
         text-align: center;
       }
 
-    body {
-        background-color: #f1f1f1;
-      }
+    body { 
+  background: url('https://c2.staticflickr.com/8/7007/6807427655_ff6d9d7ee7_z.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#app {
+          width: 60%;
+          margin: 50px auto;
+      } 
+#subtitle {
+    color:white;
+}
+#guesses {
+    color:white;
+}
+
     
